@@ -1,4 +1,5 @@
 :root {
+    --selvaOsc:#344e41;
     --selva: #3D5628;
     --vOsc: #5D7746;
     --vMed: #7F9967;
@@ -12,20 +13,26 @@
 body{
     margin: 0;
     font-family: 'Playfair Display', serif;
+    
 }
 
 a{
     text-decoration: none;
+    cursor:  pointer;
+
 
 }
 
 header{
     width: 100%;
     height: 30px;
-    background-color: #A6AE9D ; 
+    background-color: none; 
     border-radius: 4px;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    
 }
 
 nav{
@@ -33,6 +40,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    
 
 }
 
@@ -48,6 +57,7 @@ header nav ul{
     align-items: center;
     list-style: none;
     margin: 0;
+    padding: 0;
     /* padding: 10px; */
 }
 nav ul li{
@@ -57,9 +67,39 @@ nav ul li{
 
 nav ul li a{
     color: black;
+    transition: all 0.5s;
+    
+}
+
+
+nav ul li a:hover{
+    color: white;
+    transition: all 0.5s;
+    background-color: var(--selva);
+    padding: 3px;
+    border-radius: 6px;
 }
 
 .imagenInicial img{
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.5;
+    transition: all 3s;
+    height: 630px;
+}
+
+.pic1.abajo{
+    opacity: 0.3;
+    transition: all 3s;
+}
+
+.tittleInit{
+    position: absolute;
+    top: 80px;
+    right: 55px;
+    text-align: right;
+    color: var(--selvaOsc);
+}
+
+.tittleInit h1{
+    font-size: 30px;
 }
