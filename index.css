@@ -48,6 +48,7 @@ nav{
 .navTittle{
     margin: 0;
     padding-left: 15px;
+    font-size: 30px;
 }
 
 
@@ -62,29 +63,31 @@ header nav ul{
 }
 nav ul li{
     padding-left: 50px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 nav ul li a{
     color: black;
-    transition: all 0.5s;
+    transition: all 0.3s;
     
 }
 
 
 nav ul li a:hover{
-    color: white;
-    transition: all 0.5s;
+    
+    transition: all 0.3s;
     background-color: var(--selva);
-    padding: 3px;
+    padding: 1px;
+    /* border: 2px solid var(--selva); */
     border-radius: 6px;
+    color: white;
 }
 
 .imagenInicial img{
     width: 100%;
     opacity: 0.5;
     transition: all 3s;
-    height: 630px;
+    height: 100vh;
 }
 
 .pic1.abajo{
@@ -101,5 +104,9 @@ nav ul li a:hover{
 }
 
 .tittleInit h1{
+    font-size: 40px;
+}
+
+.tittleInit h2{
     font-size: 30px;
 }
