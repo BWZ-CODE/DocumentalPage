@@ -4,6 +4,7 @@
     --vOsc: #5D7746;
     --vMed: #7F9967;
     --vClaro: #C6E2AC;
+    --Fondo: #F2FD22;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -12,7 +13,7 @@
 
 body{
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bebas Neue', sans-serif;
     
 }
 
@@ -25,18 +26,21 @@ a{
 
 header{
     width: 100%;
-    height: 30px;
-    background-color: none; 
+    height:80px;
+    background-color: black; 
     border-radius: 4px;
     display: flex;
     align-items: center;
+    padding: 5px;
     position: fixed;
     z-index: 10;
+
     
 }
 
 nav{
     width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -47,9 +51,29 @@ nav{
 
 .navTittle{
     margin: 0;
-    padding-left: 15px;
+    padding-left:0;
     font-size: 30px;
+    color: white;
 }
+
+.navTittle a{
+    color: white;
+}
+
+
+.navLeft{
+    color: white;
+    text-align: left;
+}
+
+.navLeft p{
+    margin:0
+}
+
+.navRight{
+    display: flex;
+}
+
 
 
 header nav ul{
@@ -67,7 +91,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: white;
     transition: all 0.3s;
     
 }
@@ -75,38 +99,53 @@ nav ul li a{
 
 nav ul li a:hover{
     
-    transition: all 0.3s;
-    background-color: var(--selva);
+    transition: all 0.5s;
+    background-color: var(--Fondo);
     padding: 1px;
+    font-size: 20px;
     /* border: 2px solid var(--selva); */
     border-radius: 6px;
-    color: white;
+    color: black;
 }
 
 .imagenInicial img{
     width: 100%;
-    opacity: 0.5;
     transition: all 3s;
     height: 100vh;
 }
 
 .pic1.abajo{
-    opacity: 0.3;
-    transition: all 3s;
+    opacity: 0.1;
+    transition: all 2s;
 }
 
 .tittleInit{
     position: absolute;
-    top: 80px;
+    top: 500px;
     right: 55px;
     text-align: right;
     color: var(--selvaOsc);
+    background-color: var(--Fondo);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: -4px 15px 68px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 15px 68px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 15px 68px 0px rgba(0,0,0,0.75);
 }
 
 .tittleInit h1{
-    font-size: 40px;
+    font-size: 80px;
+    margin: 0;
 }
 
 .tittleInit h2{
-    font-size: 30px;
+    font-size: 60px;
+    margin: 0;
+}
+
+.tittleInit h4{
+    font-size: 50px;
+    margin-bottom: 10px;
+
 }
