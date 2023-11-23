@@ -111,203 +111,118 @@ nav ul li a:hover{
 .imagenes{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 99%;
     height: 100%;
     align-items: center;
 }
 
-.p1{
+.p1,.p3,.p5,.p7,.p9{
     object-fit: cover;
     position: relative;
     top: 450px;
     margin-left: 20px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px;
     transition: all 0.3s;
     cursor: pointer;
+    z-index: 4;
 }
 
 .p1:hover{
     top:500;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -webkit-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -moz-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     transition: all 0.3s;
 }
 
-.p2{
-    object-fit: cover;
+.p2,.p4,.p6,.p8{
+    object-fit:cover;
     position: relative;
     top: 350px;
     margin-left: 20px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px;
     transition: all 0.5s;
     cursor: pointer;
 }
 
 .p2:hover{
-    top: 300px;
-    width: 200px;
-    height: 200px;
+    top: 350px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -webkit-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -moz-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     transition: all 0.3s;
-}
-
-.p3{
-    object-fit: cover;
-    position: relative;
-    top: 450px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    cursor: pointer;
 }
 
 .p3:hover{
     top:500;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -webkit-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -moz-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     transition: all 0.3s;
 }
 
-.p4{
-    object-fit: cover;
-    position: relative;
-    top: 350px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
 .p4:hover{
-    top: 300px;
-    width: 200px;
-    height: 200px;
+    top: 350px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -webkit-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -moz-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     transition: all 0.3s;
-}
-
-.p5{
-    object-fit: cover;
-    position: relative;
-    top: 450px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    cursor: pointer;
 }
 
 .p5:hover{
     top:500;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -webkit-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -moz-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     transition: all 0.3s;
 }
 
-.p6{
-    object-fit: cover;
-    position: relative;
-    top: 350px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
 .p6:hover{
-    top: 300px;
-    width: 200px;
-    height: 200px;
+    top: 350px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -webkit-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -moz-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     transition: all 0.3s;
-}
-
-.p7{
-    object-fit: cover;
-    position: relative;
-    top: 450px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    cursor: pointer;
 }
 
 .p7:hover{
     top:500;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -webkit-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -moz-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     transition: all 0.3s;
 }
-
-.p8{
-    object-fit: cover;
-    position: relative;
-    top: 350px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
 .p8:hover{
-    top: 300px;
-    width: 200px;
-    height: 200px;
+    top: 350px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -webkit-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     -moz-box-shadow: -2px 17px 50px 22px rgba(0,0,0,0.4);
     transition: all 0.3s;
 }
-
-.p9{
-    object-fit: cover;
-    position: relative;
-    top: 450px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
 .p9:hover{
     top:500;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -webkit-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -moz-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
@@ -315,92 +230,27 @@ nav ul li a:hover{
 }
 
 
-/* @media (min-width: 1025px) {
-    .p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9{
-        width: 200px;
-        height: 200px;
-    }
-    .p1:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p2:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p3:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p4:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p5:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p6:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p7:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p8:hover{
-        width: 90px;
-        height: 90px;
-    }
-    .p9:hover{
-        width: 90px;
-        height: 90px;
-    }
-  
 
+
+
+.infoArtics{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    
 }
 
-@media  (max-width: 1180px)  {
-    .p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9{
-        width: 100px;
-        height: 100px;
-    }
-    .p1:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p2:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p3:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p4:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p5:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p6:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p7:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p8:hover{
-        width: 105px;
-        height: 105px;
-    }
-    .p9:hover{
-        width: 105px;
-        height: 105px;
-    }
-  
+.info1{
+    background-color: #C6E2AC;
+    width: 450px;
+    height: auto;
+    position:absolute;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 15px;
+    display: flex;
+}
 
-} */
+.inactive{
+    display: none;
+}
