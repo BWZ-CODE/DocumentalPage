@@ -107,9 +107,13 @@ nav ul li a:hover{
     color: black;
 }
 
-.artics{
+
+.imagenes{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
 
 .p1{
@@ -309,5 +313,94 @@ nav ul li a:hover{
     -moz-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     transition: all 0.3s;
 }
-    
 
+
+/* @media (min-width: 1025px) {
+    .p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9{
+        width: 200px;
+        height: 200px;
+    }
+    .p1:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p2:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p3:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p4:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p5:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p6:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p7:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p8:hover{
+        width: 90px;
+        height: 90px;
+    }
+    .p9:hover{
+        width: 90px;
+        height: 90px;
+    }
+  
+
+}
+
+@media  (max-width: 1180px)  {
+    .p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9{
+        width: 100px;
+        height: 100px;
+    }
+    .p1:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p2:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p3:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p4:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p5:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p6:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p7:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p8:hover{
+        width: 105px;
+        height: 105px;
+    }
+    .p9:hover{
+        width: 105px;
+        height: 105px;
+    }
+  
+
+} */
