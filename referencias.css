@@ -13,6 +13,7 @@
 
 body{
     margin: 0;
+    height: auto;
     font-family: 'Bebas Neue', sans-serif;
     
 }
@@ -35,14 +36,14 @@ header{
     align-items: center;
     padding: 5px;
     position: fixed;
-    z-index: 10;
+    z-index: 1000;
+    
 
     
 }
 
 nav{
     width: 100%;
-    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -110,82 +111,14 @@ nav ul li a:hover{
     color: black;
 }
 
-.imagenInicial img{
-    width: 100%;
-    transition: all 3s;
-    height: 100vh;
-    object-fit: cover;
-}
-
-.pic1.abajo{
-    opacity: 0.1;
-    transition: all 2s;
-}
-
-.tittleInit{
-    position: absolute;
-    width: 75%;
-    top: 60%;
-    right: 5%;
-    text-align: right;
-    color: var(--selvaOsc);
-    background-color: var(--Fondo);
-    padding: 15px;
-    border-radius: 10px;
-    font-weight: bolder;
-    box-shadow: -4px 15px 68px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -4px 15px 68px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 15px 68px 0px rgba(0,0,0,0.75);
-}
-
-.tittleInit h1{
-    font-size: 80px;
-    margin: 0;
-}
-
-.tittleInit h2{
-    font-size: 60px;
-    margin: 0;
-}
-
-.mainContext{
-    padding-top: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-@media (1024px <= width <= 1024px){
-    .tittleInit h1{
-        font-size: 45px;
-    }
-
-    .tittleInit h2{
-        font-size: 40px;
-    }
-
-}
-
-.boton{
+.ref{
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 90px;
-}
-
-button{
-    width: 400px;
-    height: 100px;
-    font-size: 35px;
-    border-radius: 15px;
-    background-color: var(--Fondo);
-    
+    flex-direction: column;
+    position:absolute;
+    top: 330px;
+    left: 55px;
 }
 
 a{
     color: black;
-    font-family: 'Bebas Neue', sans-serif;
-
 }

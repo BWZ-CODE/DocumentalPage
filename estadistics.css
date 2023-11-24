@@ -1,0 +1,222 @@
+:root {
+    --selvaOsc:#344e41;
+    --selva: #3D5628;
+    --vOsc: #5D7746;
+    --vMed: #7F9967;
+    --vClaro: #C6E2AC;
+    --Fondo: #F2FD22;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+
+
+body{
+    margin: 0;
+    height: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    cursor:  pointer;
+
+
+}
+
+
+
+header{
+    width: 100%;
+    height:9%;
+    background-color: black; 
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: fixed;
+    z-index: 1000;
+    
+
+    
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    
+
+}
+
+.navTittle{
+    margin: 0;
+    padding-left:0;
+    font-size: 30px;
+    color: white;
+}
+
+.navTittle a{
+    color: white;
+}
+
+
+.navLeft{
+    color: white;
+    text-align: left;
+}
+
+.navLeft p{
+    margin:0
+}
+
+.navRight{
+    display: flex;
+}
+
+
+
+header nav ul{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* padding: 10px; */
+}
+nav ul li{
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+nav ul li a{
+    color: white;
+    transition: all 0.3s;
+    
+}
+
+
+nav ul li a:hover{
+    
+    transition: all 0.5s;
+    background-color: var(--Fondo);
+    padding: 1px;
+    font-size: 20px;
+    /* border: 2px solid var(--selva); */
+    border-radius: 6px;
+    color: black;
+}
+
+
+.mainEst{
+    display: flex;
+    position: absolute;
+    color: wheat;
+    /* z-index: 998; */
+    top: 10%;
+    width: 100%;
+    height: 90%;
+
+
+}
+
+.followers{
+    width: 33.3%;
+    height: auto;
+    background-image: url(./pictures/one.jpg);
+    background-position-y: bottom;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.followers:hover{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.post{
+    width: 33.3%;
+    height: auto;
+    background-image: url(./pictures/two.jpg);
+    background-position-y: bottom;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.post:hover{
+    opacity: 1;
+    transition: all 1s;
+
+}
+
+.interactions{
+    width: 33.4%;
+    height: auto;
+    background-image: url(./pictures/tres.jpg);
+    background-position-y: bottom;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.interactions:hover{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.icons{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    right: 10px;
+    cursor: pointer;
+}
+
+.estPubli,.estInter,.estFollow{
+    top: 200px;
+    right: 500px;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    overflow:auto;
+    font-size: 30PX;
+}
+
+.estPubli1,.estPubli2,.estPubli3{
+    padding: 50px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cansona{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+.inactive{
+    display: none;
+}
+
+.close,.close2,.close3{
+    position: fixed;
+    left: 1320px;
+}
+
