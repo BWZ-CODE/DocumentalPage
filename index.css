@@ -138,6 +138,10 @@ nav ul li a:hover{
     -moz-box-shadow: -4px 15px 68px 0px rgba(0,0,0,0.75);
 }
 
+
+
+
+
 .tittleInit h1{
     font-size: 80px;
     margin: 0;
@@ -153,19 +157,28 @@ nav ul li a:hover{
     padding-left: 300px;
     padding-right: 300px;
     font-size: 35px;
+    line-height: 39px;
     font-family: 'Roboto', sans-serif;
 }
 
-
-@media (1024px <= width <= 1024px){
+@media screen and (max-width: 1366px) {
     .tittleInit h1{
-        font-size: 45px;
-    }
-
-    .tittleInit h2{
         font-size: 40px;
+        display: inline-block;
+    }
+    .tittleInit h2{
+        font-size: 35px;
+        display: inline-block;
     }
 
+    .tittleInit {
+        width: 55%;
+    }
+
+    .mainContext{
+        font-size: 25px;
+    }
+    
 }
 
 .boton{

@@ -137,6 +137,10 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+
+
+
+
 .followers:hover{
     opacity: 1;
     transition: all 1s;
@@ -177,6 +181,23 @@ nav ul li a:hover{
 .interactions:hover{
     opacity: 1;
     transition: all 1s;
+}
+
+@media screen and (max-width: 1366px) {
+    .followers{
+        background-position-y: 550px;
+        background-position-x: -200px;
+        background-size:auto;
+    }
+    .post{
+        background-position-y: -529px;
+       
+    }
+    .interactions{
+        background-size:auto;
+        background-position-x: 100px;
+    }
+
 }
 
 .icons{
