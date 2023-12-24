@@ -183,6 +183,51 @@ nav ul li a:hover{
     transition: all 1s;
 }
 
+.interactions:focus{
+    opacity: 1;
+    transition: all 1s;
+}
+
+
+.estPubli,.estInter,.estFollow{
+    z-index: 999;
+    background-color: white;
+    border-radius: 15px;
+    overflow:auto;
+    font-size: 30PX;
+    position: absolute;
+    margin: 10% 18%;
+    height: 60%;
+    
+} 
+
+.estPubli1,.estPubli2,.estPubli3{
+    padding: 30px 30px 0 30px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cansona{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding-left: 35px;
+}
+
+.inactive{
+    display: none;
+}
+
+
+.icons{
+    width: 80%;
+    background-color: black;
+    position: fixed;
+    
+}
+
+
+
 @media screen and (max-width: 1366px) {
     .followers{
         background-position-y: 550px;
@@ -195,49 +240,8 @@ nav ul li a:hover{
     }
     .interactions{
         background-size:auto;
-        background-position-x: 100px;
+        background-position-x: -git100px;
     }
 
-}
-
-.icons{
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    right: 10px;
-    cursor: pointer;
-}
-
-.estPubli,.estInter,.estFollow{
-    top: 200px;
-    right: 500px;
-    width: 900px;
-    height: 500px;
-    position: absolute;
-    background-color: white;
-    border-radius: 15px;
-    overflow:auto;
-    font-size: 30PX;
-}
-
-.estPubli1,.estPubli2,.estPubli3{
-    padding: 50px;
-    border-radius: 15px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.cansona{
-    display: flex;
-    justify-content: center;
-    width: 600px;
-}
-
-.inactive{
-    display: none;
-}
-
-.close,.close2,.close3{
-    position: fixed;
-    left: 1320px;
 }
 
