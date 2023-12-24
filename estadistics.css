@@ -220,10 +220,16 @@ nav ul li a:hover{
 
 
 .icons{
+    margin-bottom: 150px;
     width: 80%;
-    background-color: black;
+    /* background-color: black; */
     position: fixed;
     
+
+}
+
+.close{
+    cursor: pointer;
 }
 
 
