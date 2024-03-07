@@ -114,11 +114,15 @@ nav ul li a:hover{
 .ref{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position:absolute;
-    top: 330px;
+    top: 20vh;
     left: 55px;
 }
 
 a{
     color: black;
 }
+
+
+@media

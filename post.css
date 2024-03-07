@@ -108,7 +108,7 @@ nav ul li a:hover{
     color: black;
 }
 
-
+ 
 .imagenes{
     display: flex;
     justify-content: center;
@@ -245,7 +245,7 @@ nav ul li a:hover{
     -webkit-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     -moz-box-shadow: -2px -38px 44px 1px rgba(0,0,0,0.78);
     transition: all 0.3s;
-}
+} 
 
 
 
@@ -318,5 +318,30 @@ nav ul li a:hover{
 
   .contenido_art{
     font-size: 25px;
+
+  }
+
+  @media screen and (max-width: 1366px) {
+
+    .p1,.p3,.p5,.p7,.p9{
+        top: 200px;
+        width: 125px;
+        height: 125px;
+    }
+
+    .p2,.p4,.p6,.p8{
+        top: 350px;
+        width: 125px;
+        height: 125px;
+    }
+
+    .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
+        width: 130px;
+        height: 130px;
+    }
+
+
+
+
 
   }
